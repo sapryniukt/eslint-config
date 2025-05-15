@@ -9,6 +9,10 @@
   "keywords": [
     "eslint"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sapryniukt/eslint-config.git"
+  },
   "author": "Taras Sapryniuk",
   "license": "ISC",
   "packageManager": "pnpm@10.11.0",
