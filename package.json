@@ -1,6 +1,6 @@
 {
   "name": "stl-eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "Extendable eslint-config.",
   "main": "eslint.config.mjs",
   "scripts": {
@@ -16,9 +16,9 @@
   "author": "Taras Sapryniuk",
   "license": "ISC",
   "packageManager": "pnpm@10.11.0",
-  "devDependencies": {
+  "peerDependencies": {
+    "@eslint/js": "^9.26.0",
     "@typescript-eslint/eslint-plugin": "^8.32.1",
-    "@typescript-eslint/parser": "^8.32.1",
     "eslint": "^9.26.0",
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-prettier": "^5.4.0",
